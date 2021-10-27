@@ -1,0 +1,119 @@
+body {
+	background-color: #72A98F;
+	color: #3D5A6C;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+
+}
+h1 {
+	color: #433A3F;
+	font-weight: 800;
+	letter-spacing: 5px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+h2 {
+	color: red;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+
+a: hover {
+	color: black;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.card-white {
+	background-color: #B3D0C3;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border-color: black;
+	border-style: solid;
+}
+
+.btn-vert {
+	background-color: #8DE969;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-vert:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-white-exp {
+	background-color: #B3D0C3;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: left;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
